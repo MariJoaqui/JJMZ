@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPONGELIS</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <nav class="nav-wrapper black">
+        <div class="container">
+            <a href="index.html" class="brand-logo" id="logo1">
+                ESPONGELIS
+            </a>
+
+            <a href="index.html" class="brand-logo" id="logo2">
+                ESPONGELIS
+            </a>
+
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pagina1.html">Maquigua</a></li>
+                <li><a href="pagina2.html">La distancia</a></li>
+                <li><a href="pagina3.html">Mis deseos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fondo-sidenav">
+        <ul class="sidenav" id="menu-responsive">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pagina1.html">Maquigua</a></li>
+            <li><a href="pagina2.html">La distancia</a></li>
+            <li><a href="pagina3.html">Mis deseos</a></li>
+        </ul>
+    </div>
+
+    <div class="pink lighten-3">
+        <div class="fondo-section">
+            <div class="container section">
+                <div class="section">
+    
+                    <h5><b>¡FELÍZ CUMPLEAÑOS, BOB ESPONJA!</b></h5>
+    
+                    <p>Mi negra hermosa, quise hacerte algo especial, diferente y bueno, a mi estilo pue, espero
+                    que te guste; en algún momento de nuestras vidas tendré la oportunidad de hacerte algo mucho
+                    mejor y de poder celebrar este día contigo, mi Bob. Te amo.<br></p>
+                        
+                </div>
+
+                <div class="divider black"></div>
+            </div>
+        </div>
+
+        <div class="fondo-section">
+            <div class="container section">
+                <div class="section">
+                    <div class="row">
+                        <div class="col s12 m4 l8">
+                            <div class="card black">
+                                <div class="card-image">
+            
+                                    <img loading="lazy" src="img/img1.jpg">
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="footer-copyright black">
+        <div class="container">
+
+            <span class="grey-text text-lighten-4">Con cariño, Patricio</span>
+
+        </div>
+    </div>
+          
+    <!--SCRIPT-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/d6ff169d2d.js" crossorigin="anonymous"></script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+
+    </script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems,{
+                duration: 500,
+                indicators: true,
+                fullWidth: true
+            });
+        });
+
+    </script>
+</body>
+</html>
